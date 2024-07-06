@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document object model</title>
+</head>
+<body>
+<ul class="information">
+    <li>Ybites Employe</li>
+</ul>
+
+</body>
+<script>
+
+// function addLanguage(langName) {
+//    const li= document.createElement("li")
+//    Lli.innerHTML=`${langName}`
+//    document.querySelector(".language")
+//    .appendChild(li)
+
+// }
+// addLanguage("python")
+// addLanguage("typescript")
+    
+
+// function addLanguage(langName) {
+//     const li=document.createElement("li")
+//     li.innerHTML=`${langName}`
+//     document.querySelector(".language")
+//     .appendChild(li)
+
+// }
+// addLanguage("python")
+// addLanguage("html")
+// addLanguage("css")
+// addLanguage("java script")
+// addLanguage("react")
+// addLanguage("node js")
+// addLanguage("mongo db")
+// addLanguage("Angular")
+
+
+// function addLanguage(langName) {
+//    const li= document.createElement("li")
+//    li.innerHTML=`${langName}`
+//    document.querySelector(".language")
+//    .appendChild(li)
+
+// }
+// addLanguage("python")
+// addLanguage("typescript")
+
+
+// adding
+
+function Ybites_team(detail){
+    const inforamtion=document.createElement("li")
+    inforamtion.appendChild(document.createTextNode(detail))
+    document.querySelector(".information").appendChild(inforamtion)
+}
+
+Ybites_team("satyam")
+Ybites_team("shivam")
+Ybites_team("shashir")
+Ybites_team("darpan")
+Ybites_team("sahil")
+Ybites_team("yash")
+
+const changes=document.querySelector("li:last-child")
+const rule=document.createElement("li")
+rule.textContent="rahul"
+changes.replaceWith(rule)
+
+
+
+// const lastlang=document.querySelector("li:last-child")
+
+
+// lastlang.remove()
+
+
+
+// const secondLang=document.querySelector("li:nth-child(2)")
+// const newli=document.createElement("li")
+// newli.textContent="mojo"
+// secondLang.replaceWith(newli)
+
+
+
+
+</script>
+
+</html>
